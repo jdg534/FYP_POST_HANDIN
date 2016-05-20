@@ -1,0 +1,5 @@
+visemeFolder: "TestVisemes"
+"blank" : "testFaceDefault.obj"
+"showTeeth" : "testFaceShowingTeeth.obj"
+"narrowedLips" : "testFaceNarrowedLips.obj"
+END

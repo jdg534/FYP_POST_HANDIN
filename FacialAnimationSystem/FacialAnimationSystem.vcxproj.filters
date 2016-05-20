@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{f7f6996d-9c19-4748-b15f-e1bdf2867c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ErrorHandling">
+      <UniqueIdentifier>{af0a8770-63fa-4ce9-84e1-6beac6273419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PatternMatching">
+      <UniqueIdentifier>{13e3a35b-7a80-43ac-ab4a-2b7e87069280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{bab62731-ba24-4351-8ac8-1cc28d5ed7f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MathLib">
+      <UniqueIdentifier>{851623ee-f2e5-4fed-979f-61ee52c56595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\Cameras">
+      <UniqueIdentifier>{1dd350fc-5816-4130-8150-16b731eb9e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\Models">
+      <UniqueIdentifier>{c616c8c5-cae9-4960-b68c-c8e2d02a844c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PatternMatching\CompareTo">
+      <UniqueIdentifier>{8a03a8c6-c206-4e7d-bc19-b30b57665522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PatternMatching\ToCompare">
+      <UniqueIdentifier>{06e0d7f3-86d7-4995-9e5b-a70f2fca841d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\Windowing">
+      <UniqueIdentifier>{cc4f4bde-7ba9-42c6-a1ef-291384a2a564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\Materials">
+      <UniqueIdentifier>{8a4740a2-bf5a-43d3-96c6-4bb44cbedbf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\Lights">
+      <UniqueIdentifier>{4846cc6e-f69f-4570-8124-43492c1c8ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\Models\Loading">
+      <UniqueIdentifier>{fd7de42a-56ef-4a46-a0ae-ee545626cb17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application">
+      <UniqueIdentifier>{94c6d6b8-a2f0-4b89-88e9-c306efae776d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="playBackManager.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorLog.cpp">
+      <Filter>Source Files\ErrorHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundData.cpp">
+      <Filter>Source Files\PatternMatching</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Source Files\MathLib</Filter>
+    </ClCompile>
+    <ClCompile Include="UserControledCamera.cpp">
+      <Filter>Source Files\Rendering\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="SplinePathCamera.cpp">
+      <Filter>Source Files\Rendering\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Source Files\Rendering\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="PhonemeMap.cpp">
+      <Filter>Source Files\PatternMatching\CompareTo</Filter>
+    </ClCompile>
+    <ClCompile Include="DialoguePatten.cpp">
+      <Filter>Source Files\PatternMatching\ToCompare</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioAnalyser.cpp">
+      <Filter>Source Files\PatternMatching</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Window.cpp">
+      <Filter>Source Files\Rendering\Windowing</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialManager.cpp">
+      <Filter>Source Files\Rendering\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="VisemeLoader.cpp">
+      <Filter>Source Files\Rendering\Models\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="VisemeMap.cpp">
+      <Filter>Source Files\Rendering\Models\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="PhonemeToVisemeMap.cpp">
+      <Filter>Source Files\PatternMatching</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyingCamera.cpp">
+      <Filter>Source Files\Rendering\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalMessageQueue.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="VisemeAnimatedModel.cpp">
+      <Filter>Source Files\Rendering\Models\Loading</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="playBackManager.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorLog.h">
+      <Filter>Source Files\ErrorHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundData.h">
+      <Filter>Source Files\PatternMatching</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Source Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Source Files\MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MathTypes.h">
+      <Filter>Source Files\MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files\Rendering\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Source Files\Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Source Files\Rendering\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="UserControledCamera.h">
+      <Filter>Source Files\Rendering\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="SplinePathCamera.h">
+      <Filter>Source Files\Rendering\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="PhonemeMap.h">
+      <Filter>Source Files\PatternMatching\CompareTo</Filter>
+    </ClInclude>
+    <ClInclude Include="DialoguePattern.h">
+      <Filter>Source Files\PatternMatching\ToCompare</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioAnalyser.h">
+      <Filter>Source Files\PatternMatching</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioPattern.h">
+      <Filter>Source Files\PatternMatching</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingStructs.h">
+      <Filter>Source Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Window.h">
+      <Filter>Source Files\Rendering\Windowing</Filter>
+    </ClInclude>
+    <ClInclude Include="Viseme.h">
+      <Filter>Source Files\Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="VisemeMap.h">
+      <Filter>Source Files\Rendering\Models\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="VisemeLoader.h">
+      <Filter>Source Files\Rendering\Models\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialManager.h">
+      <Filter>Source Files\Rendering\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="PhonemeToVisemeMap.h">
+      <Filter>Source Files\PatternMatching</Filter>
+    </ClInclude>
+    <ClInclude Include="VisemeAnimatedModel.h">
+      <Filter>Source Files\Rendering\Models\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyingCamera.h">
+      <Filter>Source Files\Rendering\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Source Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalMessageQueue.h">
+      <Filter>Source Files\Application</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CelShader.hlsl">
+      <Filter>Source Files\Rendering</Filter>
+    </None>
+  </ItemGroup>
+</Project>

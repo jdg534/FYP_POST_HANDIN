@@ -1,0 +1,81 @@
+/* 
+
+(context: with in this file the term symbol is used to refer to a graphical representation of a phoneme)
+
+not all representations use single character
+based off: http://www.teachingenglish.org.uk/article/phonemic-chart
+there will be some differences with the symbols used to represent different phonemes
+in this file an those used in the chart used on: http://www.teachingenglish.org.uk/article/phonemic-chart
+
+
+
+please note that the symbols used are accompanied with some example phrases
+the characters assiciated with the phoneme
+
+
+the symbols for each phoneme needs to be unique, 
+and might not accusatly map to the sound the symbol represents
+
+P.S. the sysbols addressed are relative to the English language only.
+there maybe some overlap with other languages however this is a side effect
+*/
+
+what's covered:
+
+"Vowels"
+"EE" used in: "sEAt", "grEEn", "trEE" // phoneme recorded
+"E" used in: "hEAd", "bEt", "sAId" // phoneme recorded
+"A" used in: "hAd", "lAmb", "Apple" // phoneme recorded
+"I" used in: "sIt", "grIn", "fIsh" // phoneme recorded
+"ER" used in: "teachER", "observER" // phoneme recorded
+"U" used in: "cUp", (according to the chart) "lOve", "mOney" // phoneme recorded, 
+"OO" used in: "gOOd","fOOt" // phoneme recorded
+"UR" used in: "gIRl", "nURse", "EARth"
+"AR" used in: "hEARt", "dARk", "fAst"
+"OE" used in: "rUle", (according to the chart) "fOOd", "shOE"
+"OR" used in: "dOOr", "fOUr", (according to the chart)"wALk"
+"O" used in: "hOt", "stOp", (according to the chart)"wAnt"
+
+
+
+
+"Consonants" 
+"P" used in: "Pull", "stoP", "aPPle"
+"B" used in: "Bet", "aBout", "Beer"
+"H" used in: "Hot", "Head", "Heart"
+"F" used in: "Four", "Food", "Fish"
+"V" used in: "obserVer", "Vow", "Vote"
+"M" used in: "Money", "laMb", "My"
+"T" used in: "Tree", "sTop", "wanT"
+"D" used in: "Door", "fooD", "saiD"
+"N" used in: "griN", "greeN", "Nurse"
+"TH" used in: "earTH", "THigh", "THrow"
+"THV" used in: "THey", "THere", "baTHe"
+"NN" used in: "siNG", "eNGlish", "draNk"
+"CH" used in: "teaCHer", "CHair", "CHoice"
+"J" used in: "Joke", "Joy", "lounge"
+"R" used in: "Rule", "gRin", "tRee"
+"S" used in: "Stop", "Sit", "faSt"
+"Z" used in: "obServer", "NoiSe", "preSident" // this appers to be pronouncination depedent
+"L" used in: "puLL", "Love", "ruLe"
+"SH" used in: "Shoe", "fiSH", "Sure"
+"SGER" used in: "caSual", "meaSure", "pleaSure"
+"W" used in: "Want", "Way", "WHere"
+"K" used in: "walK", "darK", "Cup"
+"G" used in: "Grin", "Green", "Girl"
+"Y" used in: "Year", "Yes", "Yellow"
+
+"Diphthongs"
+"EA" used in: "yEAr", "bEEr", "EAR"
+"ERE" used in: "chAIR", "whERE", "thERE"
+"OW" used in: "jOke", "vOte", "thrOW"
+"AU" used in: "vOW", "lOUnge", "OUt"
+"EY" used in: "thEY", "bAthe", "wAY"
+"AI" used in: "thIGH", "dIce", "mY"
+"OY" used in: "jOY", "nOIse", "chOice"
+
+StartFileAssociation:
+EE: "EE.wav"
+
+EndFileAssociation
+

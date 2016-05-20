@@ -1,0 +1,11 @@
+START_RENDER_DESC
+// note that "drawType" is either "wireframe" or "solid"
+windowWidth 800
+windowHeight 600
+windowText "DirectX11 Window For Viseme Animated Model"
+clearColour 0.3 0.3 0.3 1.0
+drawType "wireframe"
+nearDepth 0.1
+farDepth 100.0
+END_RENDER_DESC
+

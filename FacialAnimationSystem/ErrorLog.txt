@@ -1,0 +1,27 @@
+ERROR_LOG_START
+Error 1 minor: Issue loading from ToonFuseVisemes/closed.obj at position -1
+Error 2 minor: Material name conflict, fuse_material already defined in the material manager (this is to be expected if the models use the same material, the first difinition encountered will be used)
+Error 3 minor: Issue loading from ToonFuseVisemes/A_AND_I.obj at position -1
+Error 4 minor: Material name conflict, fuse_material already defined in the material manager (this is to be expected if the models use the same material, the first difinition encountered will be used)
+Error 5 minor: Issue loading from ToonFuseVisemes/default.obj at position -1
+Error 6 minor: Material name conflict, fuse_material already defined in the material manager (this is to be expected if the models use the same material, the first difinition encountered will be used)
+Error 7 minor: Issue loading from ToonFuseVisemes/E_SINGLE_WIDE.obj at position -1
+Error 8 minor: Material name conflict, fuse_material already defined in the material manager (this is to be expected if the models use the same material, the first difinition encountered will be used)
+Error 9 minor: Issue loading from ToonFuseVisemes/EE.obj at position -1
+Error 10 minor: Material name conflict, fuse_material already defined in the material manager (this is to be expected if the models use the same material, the first difinition encountered will be used)
+Error 11 minor: Issue loading from ToonFuseVisemes/F.obj at position -1
+Error 12 minor: Material name conflict, fuse_material already defined in the material manager (this is to be expected if the models use the same material, the first difinition encountered will be used)
+Error 13 minor: Issue loading from ToonFuseVisemes/IH.obj at position -1
+Error 14 minor: Material name conflict, fuse_material already defined in the material manager (this is to be expected if the models use the same material, the first difinition encountered will be used)
+Error 15 minor: Issue loading from ToonFuseVisemes/L.obj at position -1
+Error 16 minor: Material name conflict, fuse_material already defined in the material manager (this is to be expected if the models use the same material, the first difinition encountered will be used)
+Error 17 minor: Issue loading from ToonFuseVisemes/O_SINGLE_WIDE.obj at position -1
+Error 18 minor: Material name conflict, fuse_material already defined in the material manager (this is to be expected if the models use the same material, the first difinition encountered will be used)
+Error 19 minor: Issue loading from ToonFuseVisemes/OO.obj at position -1
+Error 20 minor: Material name conflict, fuse_material already defined in the material manager (this is to be expected if the models use the same material, the first difinition encountered will be used)
+Error 21 minor: Issue loading from ToonFuseVisemes/U_SINGLE_WIDE.obj at position -1
+Error 22 minor: Material name conflict, fuse_material already defined in the material manager (this is to be expected if the models use the same material, the first difinition encountered will be used)
+Error 23 minor: Issue loading from ToonFuseVisemes/UH.obj at position -1
+Error 24 minor: Material name conflict, fuse_material already defined in the material manager (this is to be expected if the models use the same material, the first difinition encountered will be used)
+Error 25 minor: Issue loading from ToonFuseVisemes/W_AND_Q.obj at position -1
+ERROR_LOG_END

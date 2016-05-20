@@ -1,0 +1,7 @@
+information for dialog file: 6 dislogue states identified
+State 0: sh start 0 end 0.318677
+State 1: theta start 0.318677 end 0.637355
+State 2: f start 0.637355 end 0.956032
+State 3: f start 0.956032 end 1.27471
+State 4: f start 1.27471 end 1.59339
+State 5: f start 1.59339 end 1.91206

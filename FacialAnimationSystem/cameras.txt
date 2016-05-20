@@ -1,0 +1,45 @@
+change_camera_delay 0.5 // is in seconds
+// how static cameras are written: (pos x y z) (at x y z) (up x y z)
+// how user controled cameras are written (pos x y z) (at x y z) (up x y z) move speed
+// spline cam (pos x y z) (at x y z) (up x y z) (move speed float how big the steps to 1.0 are) (int nPoints)
+// points x y z
+
+
+static_camera 
+0.0 20.0 45.0
+0.0 25.0 0.0
+0.0 1.0 0.0
+
+flying_camera 
+0.0 20.0 -45.0
+0.0 25.0 0.0
+0.0 1.0 0.0
+
+
+
+spline_path_camera
+0.0 0.0 -3.0
+0.0 25.0 0.0
+0.0 1.0 0.0
+0.1
+5
+-30.0 25.0 -30.0
+-30.0 25.0 30.0
+30.0 25.0 30.0
+30.0 25.0 -30.0
+-30.0 25.0 -30.0
+
+
+user_controled_camera
+0.0 0.0 -3.0
+0.0 0.0 0.0
+0.0 1.0 0.0
+0.5
+
+
+
+
+
+
+
+END_OF_FILE

@@ -1,0 +1,15 @@
+START_APP_INDEX
+
+rendererFile: "render.txt"
+camerasFile: "cameras.txt"
+phonemes: "phonemes/" "index.txt"
+visemes: "VisMapToonFace.txt"
+phonemeToVisemeMap: "ToonFacePhonemeToVisemeMap.txt"
+dialogue: "testDialogue2.wav"
+animationSequence: "testDialogue2.txt"
+silenceThreshold: 50
+"testKey_k_ey.txt"
+// animationSequence could also be "USE_PATTERN_MATCHING", (self explanetory)
+
+
+END_APP_INDEX

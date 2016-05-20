@@ -1,0 +1,14 @@
+﻿Build started 14/05/2016 11:31:57.
+     1>Project "E:\FacialAnimationSystem\FacialAnimationSystem\FacialAnimationSystem.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         FacialAnimationSystem.vcxproj -> E:\FacialAnimationSystem\Debug\FacialAnimationSystem.exe
+       PostBuildEvent:
+         xcopy /y "C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib\fmod.dll" "E:\FacialAnimationSystem\Debug\"
+         :VCEnd
+         C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib\fmod.dll
+         1 File(s) copied
+     1>Done Building Project "E:\FacialAnimationSystem\FacialAnimationSystem\FacialAnimationSystem.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.84

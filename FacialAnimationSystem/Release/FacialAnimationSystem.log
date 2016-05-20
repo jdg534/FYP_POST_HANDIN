@@ -1,0 +1,71 @@
+﻿Build started 14/05/2016 10:52:36.
+     1>Project "E:\FacialAnimationSystem\FacialAnimationSystem\FacialAnimationSystem.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc" /IC:\Aquila\VS_2013_FOLDER\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp AudioAnalyser.cpp CameraManager.cpp
+         Application.cpp
+     1>e:\facialanimationsystem\facialanimationsystem\Viseme.h(55): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\facialanimationsystem\facialanimationsystem\Viseme.h(71): warning C4018: '<' : signed/unsigned mismatch
+     1>Application.cpp(106): warning C4018: '<' : signed/unsigned mismatch
+     1>Application.cpp(280): warning C4018: '<' : signed/unsigned mismatch
+     1>Application.cpp(305): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+         AudioAnalyser.cpp
+     1>AudioAnalyser.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+     1>AudioAnalyser.cpp(56): warning C4018: '<' : signed/unsigned mismatch
+     1>AudioAnalyser.cpp(87): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>AudioAnalyser.cpp(108): warning C4018: '<' : signed/unsigned mismatch
+     1>AudioAnalyser.cpp(128): warning C4018: '<' : signed/unsigned mismatch
+     1>AudioAnalyser.cpp(162): warning C4018: '<' : signed/unsigned mismatch
+     1>AudioAnalyser.cpp(198): warning C4018: '<' : signed/unsigned mismatch
+     1>AudioAnalyser.cpp(202): warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>AudioAnalyser.cpp(204): warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>AudioAnalyser.cpp(216): warning C4101: 'a' : unreferenced local variable
+     1>AudioAnalyser.cpp(537): warning C4018: '<' : signed/unsigned mismatch
+     1>AudioAnalyser.cpp(558): warning C4305: 'initializing' : truncation from '__int64' to 'unsigned int'
+     1>AudioAnalyser.cpp(558): warning C4309: 'initializing' : truncation of constant value
+     1>AudioAnalyser.cpp(616): warning C4018: '<' : signed/unsigned mismatch
+     1>AudioAnalyser.cpp(630): warning C4018: '<' : signed/unsigned mismatch
+     1>AudioAnalyser.cpp(692): warning C4018: '<' : signed/unsigned mismatch
+     1>AudioAnalyser.cpp(701): warning C4018: '<' : signed/unsigned mismatch
+     1>AudioAnalyser.cpp(736): warning C4018: '<' : signed/unsigned mismatch
+     1>AudioAnalyser.cpp(792): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>AudioAnalyser.cpp(819): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>AudioAnalyser.cpp(820): warning C4018: '<' : signed/unsigned mismatch
+     1>AudioAnalyser.cpp(829): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>AudioAnalyser.cpp(831): warning C4018: '<' : signed/unsigned mismatch
+     1>AudioAnalyser.cpp(863): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>AudioAnalyser.cpp(866): warning C4018: '<' : signed/unsigned mismatch
+     1>AudioAnalyser.cpp(853): warning C4101: 'e' : unreferenced local variable
+     1>AudioAnalyser.cpp(912): warning C4018: '<' : signed/unsigned mismatch
+     1>AudioAnalyser.cpp(943): warning C4018: '<' : signed/unsigned mismatch
+         CameraManager.cpp
+     1>CameraManager.cpp(206): warning C4018: '<' : signed/unsigned mismatch
+     1>CameraManager.cpp(217): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\FacialAnimationSystem\Release\FacialAnimationSystem.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib" /LIBPATH:C:\Aquila\VS_2013_FOLDER\lib fmod_vc.lib D3DCompiler.lib d3d11.lib Aquila.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\FacialAnimationSystem\Release\FacialAnimationSystem.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\FacialAnimationSystem\Release\FacialAnimationSystem.lib" /MACHINE:X86 /SAFESEH Release\Application.obj
+         Release\AudioAnalyser.obj
+         Release\CameraManager.obj
+         Release\DialoguePatten.obj
+         Release\ErrorLog.obj
+         Release\FlyingCamera.obj
+         Release\GlobalMessageQueue.obj
+         Release\main.obj
+         Release\MaterialManager.obj
+         Release\Math.obj
+         Release\Mesh.obj
+         Release\PhonemeMap.obj
+         Release\PhonemeToVisemeMap.obj
+         Release\playBackManager.obj
+         Release\Renderer.obj
+         Release\SoundData.obj
+         Release\SplinePathCamera.obj
+         Release\UserControledCamera.obj
+         Release\VisemeAnimatedModel.obj
+         Release\VisemeLoader.obj
+         Release\VisemeMap.obj
+         Release\Win32Window.obj
+     1>LINK : fatal error LNK1181: cannot open input file 'Aquila.lib'
+     1>Done Building Project "E:\FacialAnimationSystem\FacialAnimationSystem\FacialAnimationSystem.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:11.01
